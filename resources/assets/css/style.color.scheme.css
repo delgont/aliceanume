@@ -1,0 +1,57 @@
+/* Table of Content
+==================================================
+#BACKGROUNDS
+#TEXTCOLOR
+
+
+#Blue -> primary 5BCBF6 or 16C0EA
+#Green -> seconadry
+*/
+
+
+
+/*--------------------------------------------------------------
+# BACKGROUNDS
+--------------------------------------------------------------*/
+
+.bg-primary {
+    background-color: #5BCBF6 !important;
+}
+.bg-secondary {
+    background-color: #55F892 !important;
+}
+.bg-secondary-light {
+    background-color: #80FBAE;
+}
+
+.bg-dark {
+    background-color: #3a4a4d;
+}
+
+.bg-light, .navbar-light {
+    background-color: #F9FBFB !important;
+}
+
+
+/*--------------------------------------------------------------
+# TEXTCOLORS
+--------------------------------------------------------------*/
+.text-primary {
+    color: #5BCBF6 !important;
+}
+.text-secondary {
+    color: #55F892 !important;
+}
+.text-secondary-dark {
+    color: #2DF477 !important;
+}
+.text-dark {
+    color: #3a4a4d !important;
+}
+
+/*--------------------------------------------------------------
+# BUTTONS
+--------------------------------------------------------------*/
+.btn-secondary {
+    background-color: #55F892;
+}

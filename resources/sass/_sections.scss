@@ -1,0 +1,197 @@
+
+section.contact-us{
+    background-color: var(--bs-white);
+}
+
+section.events{
+    .event-item {
+        .event-details {
+            .event-date {
+                span{
+                    height: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+}
+section.events.bg-dark{
+    h3{
+        color: var(--bs-light) !important;
+    }
+}
+
+/*Team Section*/
+section.team-section, .team {
+    background-color: var(--bs-light);
+    .team-item img {
+        position: relative;
+        top: 0;
+        transition: .5s;
+    }
+    
+    .team-item:hover img {
+        top: -30px;
+    }
+    
+    .team-item .team-text {
+        position: relative;
+        height: 100px;
+        transition: .5s;
+    }
+    
+    .team-item:hover .team-text {
+        margin-top: -60px;
+        height: 160px;
+    }
+    
+    .team-item .team-text .team-social {
+        opacity: 0;
+        transition: .5s;
+    }
+    
+    .team-item:hover .team-text .team-social {
+        opacity: 1;
+    }
+    
+    .team-item .team-social .btn {
+        display: inline-flex;
+        color: var(--bs-primary);
+        background: #FFFFFF !important;
+        border-radius: 40px;
+    }
+    
+    .team-item .team-social .btn:hover {
+        color: #FFFFFF;
+        background: var(--bs-primary);
+    }
+}
+
+
+section.intro {
+    .intro-content {
+        h1,h2,h3,h4,h5,h6 {
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            color: var(--bs-dark);
+            font-weight: 900;
+        }
+        blockquote{
+            background: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 1.5em 5px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+          }
+          blockquote:before {
+            color: #ccc;
+            content: open-quote;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+          }
+          blockquote p {
+            display: inline;
+          }
+    }
+}
+
+section.courses{
+    .course-item {
+        .inner-item {
+            border: 2px solid var(--bs-primary);
+            &:hover {
+                background-color: var(--bs-white);
+            }
+        }
+    }
+}
+
+section.news {
+    .news-item {
+        .categories {
+            .category {
+                background-color: var(--bs-info);
+                color: var(--bs-dark);
+                font: 400 0.875rem/1.5rem "Open Sans", sans-serif;
+            }
+        }
+        &:hover {
+            background-color: var(--bs-light);
+        }
+    }
+    .empty {
+        background-color: var(--bs-info);
+    }
+}
+
+/****************************/
+/*     12. Testimonials     */
+/****************************/
+section.testimonials {
+    .carousel-inner {
+        width: 80%;
+        left: 10%;
+        .carousel-item {
+            text-align: center;
+            .image-wrapper {
+                text-align: center;
+                img {
+                    border-radius: 50%;
+                    width: 9rem !important;
+                }
+            }
+
+            .testimonial-author {
+                color: #333;
+                font: 700 1rem/1.625rem "Open Sans", sans-serif;
+                letter-spacing: -0.1px;
+            }
+
+            .testimonial-text {
+                font: italic 400 1rem/1.625rem "Open Sans", sans-serif;
+            }
+
+        }
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 1.125rem;
+    }
+}
+
+
+section.events {
+    .event-item {
+        .event-featured-image {
+            background-color: var(--bs-info);
+        }
+      
+        .date {
+            span {
+                margin-right: 5px;
+                margin-bottom: 2px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--light);
+                transition: .3s;
+                color: var(--bs-primary);
+                background-color: var(--bs-light);
+                border: 1px solid var(--bs-info);
+                h3 {
+                    font-weight: 900 !important;
+                    color: var(--bs-primary) !important;
+                }
+            }
+        }
+    }
+}
+
+

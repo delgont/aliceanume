@@ -1,0 +1,40 @@
+
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+
+
+
+section.programs small.entry-requirements {
+    display: none;
+}
+
+.main-slider {
+    height: 250px;
+}
+.main-slider .main-slider-owl .item {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.rounded-bottom {
+    border-bottom-left-radius: 60% 150px !important;
+    border-bottom-right-radius: 50% 150px !important;
+    border-bottom-width: 40%;
+    position: relative;
+    overflow: hidden;
+    width: 160%; 
+    margin-bottom:-50px;
+    left:-30%; 
+}
+
+
+.banner {
+    height: 400px !important;
+    background-color: #d3fae5;
+    padding-top: 20px;
+}
+.banner h1 {
+    font-weight: 900 !important;
+}

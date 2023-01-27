@@ -1,0 +1,12 @@
+.page-header {
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+  color: #999999;
+}

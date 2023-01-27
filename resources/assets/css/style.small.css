@@ -1,0 +1,20 @@
+
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+#header .contact-info {
+    display: none;
+}
+
+section.programs .title-row {
+    display: none;
+}
+
+.main-slider {
+    height: 250px;
+}
+.main-slider .main-slider-owl .item {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}

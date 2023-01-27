@@ -1,0 +1,115 @@
+body {
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+#footer .credits {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#footer .credits p{
+    margin: 2px;
+}
+
+#footer .credits .social-links{
+    margin: 0;
+}
+
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+#header .contact-info {
+    display: none;
+}
+#header .topbar h3 {
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+
+
+section.programs .title-row {
+    display: none;
+}
+
+
+section.programs .program-row{
+    padding: 5px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+section.next-step h4.title {
+    padding: 25px;
+    text-align: center;
+}
+.cover{
+    height: 200px;
+    background-position: right top;
+    background-size: cover;
+}
+
+.cover h2 {
+    font-size: 10px;
+}
+.cover .ctx {
+    padding: 10px 0;
+    margin-top: 100px;
+}
+.cover h2 {
+    font-size: 20px;
+}
+
+.cover .location {
+    text-align: left;
+}
+
+
+.related-links {
+    margin-top: 50px;
+}
+
+
+.event-item {
+    margin-left: 10px;
+}
+
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.main-slider {
+    height: 200px;
+}
+.main-slider .main-slider-owl .item {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+
+
+section.courses .img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(206, 198, 198);
+    border-bottom-right-radius: 10%;
+}
+
+.rounded-bottom {
+    border-bottom-left-radius: 50% 50px !important;
+    border-bottom-right-radius: 50% 150px !important;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -50px;
+
+}

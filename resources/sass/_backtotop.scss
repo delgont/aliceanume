@@ -1,0 +1,19 @@
+.back-to-top {
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+    z-index: 11;
+    background-color: var(--bs-primary);
+    color: var(--bs-light);
+}
+.back-to-top i {
+    padding-top: 12px;
+}

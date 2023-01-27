@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/images
+/public/css/delgont.css
+/public/js/delgont.js
+/public/img
+/public/font-awesome
+/public/storage
+/storage/*.key
+/vendor
+/delgont
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

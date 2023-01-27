@@ -1,0 +1,23 @@
+.news-page-section {
+    .news-item {
+        margin-bottom: 40px;
+    }
+    .news-headline {
+        font-size: 25px !important;
+        font-weight: 400 !important;
+        margin-bottom: 10px;
+
+    }
+    .news-meta {
+        span {
+            .fa {
+                color: var(--primary);
+            }
+        }
+    }
+    .news-thumb {
+        height: 300px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}

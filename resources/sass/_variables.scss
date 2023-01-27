@@ -1,0 +1,46 @@
+$body-bg: #fff;
+$body-color: #111;
+
+$white: #ffffff;
+
+$primary: #4B94F2;
+$secondary: #FFF0E6;
+$light: #F2F2F1;
+$dark: #1B2C51;
+
+$font-family-base: 'Inter', sans-serif;
+
+$headings-font-family: 'Saira', sans-serif;
+
+
+$headings-color: $dark;
+
+$headings-font-weight: 600;
+
+$display-font-weight: 700;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 6px;
+
+$border-radius-sm: $border-radius;
+
+$border-radius-lg: $border-radius;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+$theme-colors: (
+    "light":      #f3f7fd,
+    "dark":       #06090c,
+    "primary":    #18d26e,
+    "secondary":  #f29f67,
+    "info":       #add8e6,
+    "accent1":    #6ee7f8,
+    "accent2":    #ebfdff,
+    "accent3":    #0bd0fa,
+    "success":    #00cb79,
+    "warning":    #ecd600,
+    "danger":     #F05340,
+);
