@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e284e28706afd8466fe317e8496cb352",
+    "content-hash": "2ade76bdfd9bc909a546939214572227",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -74,16 +74,16 @@
         },
         {
             "name": "delgont/cms",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delgont/cms.git",
-                "reference": "0e22fa2b3d1e4bb25b8d7ea917d4ffbd669335a1"
+                "reference": "720abfc76b7585a7f4c33f6eea1a5911c13ff4b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delgont/cms/zipball/0e22fa2b3d1e4bb25b8d7ea917d4ffbd669335a1",
-                "reference": "0e22fa2b3d1e4bb25b8d7ea917d4ffbd669335a1",
+                "url": "https://api.github.com/repos/delgont/cms/zipball/720abfc76b7585a7f4c33f6eea1a5911c13ff4b8",
+                "reference": "720abfc76b7585a7f4c33f6eea1a5911c13ff4b8",
                 "shasum": ""
             },
             "require": {
@@ -131,22 +131,22 @@
             ],
             "support": {
                 "issues": "https://github.com/delgont/cms/issues",
-                "source": "https://github.com/delgont/cms/tree/v1.2.0"
+                "source": "https://github.com/delgont/cms/tree/v1.3.0"
             },
-            "time": "2023-01-19T04:01:39+00:00"
+            "time": "2023-01-30T11:40:08+00:00"
         },
         {
             "name": "delgont/ui",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delgont/cms-ui.git",
-                "reference": "7385cefc55c582292ce4313fdbcd15ceef85c952"
+                "reference": "7d4747f4fe7c43a7f58331fbefc33cfa053ec709"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delgont/cms-ui/zipball/7385cefc55c582292ce4313fdbcd15ceef85c952",
-                "reference": "7385cefc55c582292ce4313fdbcd15ceef85c952",
+                "url": "https://api.github.com/repos/delgont/cms-ui/zipball/7d4747f4fe7c43a7f58331fbefc33cfa053ec709",
+                "reference": "7d4747f4fe7c43a7f58331fbefc33cfa053ec709",
                 "shasum": ""
             },
             "require": {
@@ -186,9 +186,9 @@
             ],
             "support": {
                 "issues": "https://github.com/delgont/cms-ui/issues",
-                "source": "https://github.com/delgont/cms-ui/tree/v1.1.0"
+                "source": "https://github.com/delgont/cms-ui/tree/v1.2.0"
             },
-            "time": "2023-01-19T04:04:31+00:00"
+            "time": "2023-01-30T11:41:29+00:00"
         },
         {
             "name": "delgont/web",
@@ -2319,16 +2319,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.65.0",
+            "version": "2.66.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3"
+                "reference": "496712849902241f04902033b0441b269effe001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/09acf64155c16dc6f580f36569ae89344e9734a3",
-                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/496712849902241f04902033b0441b269effe001",
+                "reference": "496712849902241f04902033b0441b269effe001",
                 "shasum": ""
             },
             "require": {
@@ -2417,7 +2417,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-06T15:55:01+00:00"
+            "time": "2023-01-29T18:53:47+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -3509,16 +3509,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.4.17",
+            "version": "v5.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "052ef49b660f9ad2a3adb311c555c9bc11ba61f4"
+                "reference": "f4a7d150f5b9e8f974f6f127d8167e420d11fc62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/052ef49b660f9ad2a3adb311c555c9bc11ba61f4",
-                "reference": "052ef49b660f9ad2a3adb311c555c9bc11ba61f4",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f4a7d150f5b9e8f974f6f127d8167e420d11fc62",
+                "reference": "f4a7d150f5b9e8f974f6f127d8167e420d11fc62",
                 "shasum": ""
             },
             "require": {
@@ -3555,7 +3555,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v5.4.17"
+                "source": "https://github.com/symfony/css-selector/tree/v5.4.19"
             },
             "funding": [
                 {
@@ -3571,7 +3571,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-23T11:40:44+00:00"
+            "time": "2023-01-01T08:32:19+00:00"
         },
         {
             "name": "symfony/debug",
@@ -4254,16 +4254,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v5.4.17",
+            "version": "v5.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "2a83d82efc91c3f03a23c8b47a896df168aa5c63"
+                "reference": "a858429a9c704edc53fe057228cf9ca282ba48eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/2a83d82efc91c3f03a23c8b47a896df168aa5c63",
-                "reference": "2a83d82efc91c3f03a23c8b47a896df168aa5c63",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/a858429a9c704edc53fe057228cf9ca282ba48eb",
+                "reference": "a858429a9c704edc53fe057228cf9ca282ba48eb",
                 "shasum": ""
             },
             "require": {
@@ -4281,7 +4281,7 @@
                 "symfony/serializer": "<5.4.14|>=6.0,<6.0.14|>=6.1,<6.1.6"
             },
             "require-dev": {
-                "egulias/email-validator": "^2.1.10|^3.1",
+                "egulias/email-validator": "^2.1.10|^3.1|^4",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
                 "symfony/dependency-injection": "^4.4|^5.0|^6.0",
                 "symfony/property-access": "^4.4|^5.1|^6.0",
@@ -4318,7 +4318,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v5.4.17"
+                "source": "https://github.com/symfony/mime/tree/v5.4.19"
             },
             "funding": [
                 {
@@ -4334,7 +4334,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-13T09:59:55+00:00"
+            "time": "2023-01-09T05:43:46+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

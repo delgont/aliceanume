@@ -24,10 +24,10 @@
                 </div>
                 @if ($footerMenuItems)
                     <div class="col-lg-3 col-md-6">
-                    @if (count($footerMenuItems->menuItems))
+                    @if (count($footerMenuItems))
                         <h5 class="text-light mb-4">Quick Links</h5>
-                        @foreach ($footerMenuItems->menuItems as $menuItem)
-                            <a class="btn btn-link" href="{{ url(($menuItem->menuable->slug) ?? '/') }}">{{ $menuItem->label }}</a>
+                        @foreach ($footerMenuItems as $menuItem)
+                            <a class="btn btn-link" href="{{ $menuItem->menuable->url }}">{{ $menuItem->label }}</a>
                         @endforeach
                     @endif
                     </div>

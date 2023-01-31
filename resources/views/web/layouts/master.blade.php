@@ -33,10 +33,7 @@
 
     <!-- Page Required Css Files -->
     @yield('requiredCss')
-
     <!-- Js | JQuery | Bootstrap | Wow -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.min.js" defer></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
     <script src="{{ asset('js/aamsnm.js') }}" defer></script>
 
     <!-- Page Required Js Files-->

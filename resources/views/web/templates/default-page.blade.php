@@ -7,7 +7,7 @@
 
 @includeIf('web.includes.header', [
     'headerTitle' => $post->post_title,
-    'headerImage' => option('aamsnm_events_header_image', config('events.option.aamsnm_events_header_image', 'img/event.jpg')),
+    'headerImage' => option('aamsnm_header_image', 'img/header/header-2.jpg'),
     'slug' => $post->slug
 ])
 
@@ -17,16 +17,6 @@
 
             <div class="col-lg-8 post">
                 <div class="row">
-
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                @if ($post->post_featured_image)
-                                    <div class="set-bg rounded post-featured-image" data-setbg="{{ asset($post->post_featured_image) }}"></div>
-                                @endif
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-12 py-3">
                         <h3>{{ $post->post_title }}</h3>
@@ -53,8 +43,6 @@
                         </div>
                         @endif
                     @endif
-
-                    @includeIf('web.widgets.advert')
 
                 </div>
             </div>
