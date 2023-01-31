@@ -1,4 +1,40 @@
 
+section.intro {
+    .intro-content {
+        h1,h2,h3,h4,h5,h6 {
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            color: var(--bs-dark);
+            font-weight: 900;
+        }
+        blockquote{
+            background: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 1.5em 5px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+          }
+          blockquote:before {
+            color: #ccc;
+            content: open-quote;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+          }
+          blockquote p {
+            display: inline;
+          }
+    }
+    .intro-media {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+}
+
 section.contact-us{
     background-color: var(--bs-white);
 }
@@ -71,34 +107,6 @@ section.team-section, .team {
 }
 
 
-section.intro {
-    .intro-content {
-        h1,h2,h3,h4,h5,h6 {
-            margin-bottom: 20px;
-            text-transform: capitalize;
-            color: var(--bs-dark);
-            font-weight: 900;
-        }
-        blockquote{
-            background: #f9f9f9;
-            border-left: 10px solid #ccc;
-            margin: 1.5em 5px;
-            padding: 0.5em 10px;
-            quotes: "\201C""\201D""\2018""\2019";
-          }
-          blockquote:before {
-            color: #ccc;
-            content: open-quote;
-            font-size: 4em;
-            line-height: 0.1em;
-            margin-right: 0.25em;
-            vertical-align: -0.4em;
-          }
-          blockquote p {
-            display: inline;
-          }
-    }
-}
 
 section.courses{
     .course-item {

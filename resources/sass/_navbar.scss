@@ -1,12 +1,13 @@
 .navbar-container{
     font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
-	transition: all 0.2s;
+   transition: all 0.2s;
     .navbar-collapse{
         .search-form input{
             background-color: transparent !important;
         }
     }
     .navbar{
+        background: transparent !important;
         .dropdown-toggle::after {
             border: none;
             content: "\f107";
@@ -28,6 +29,7 @@
                 color: #FFFFFF;
                 font-weight: 500;
                 outline: none;
+                font-weight: 900 !important;
             }
             .nav-link:hover, .nav-link.active {
                 color: var(--bs-primary);
@@ -47,39 +49,40 @@
                 }
             }
         }
-
+   
     }
-}
-
-img.brand-img{
+   }
+   
+   img.brand-img{
     position: absolute !important;
     top: 0 !important;
     height: 90px;
-}
-
-.navbar-container.fixed-top {
+   }
+   
+   .navbar-container.fixed-top {
     transition: .5s;
-}
-
-.navbar-container.bg-dark{
+   }
+   
+   .navbar-container.bg-dark{
     .navbar-nav{
         a.nav-item, .nav-item.dropdown .nav-link{
             color: var(--bs-light);
             font-weight: 900 !important;
         }
     }
-}
-
-.top-bar {
+   }
+   
+   .top-bar {
     height: 45px;
     border-bottom: 1px solid rgba(255, 255, 255, .07);
-}
-
-
-
-
-@media (max-width: 991.98px) {
+   }
+   
+   
+   
+   
+   @media (max-width: 991.98px) {
     .navbar {
+        background-color: red;
         .navbar-nav {
             margin-top: 10px;
             border-top: 1px solid rgba(0, 0, 0, .07);
@@ -89,21 +92,22 @@ img.brand-img{
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
-}
-
-@media (min-width: 992px) {
+   }
+   
+   @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
         visibility: hidden;
         top: 100%;
         opacity: 0;
     }
-
+   
     .navbar .nav-item:hover .dropdown-menu {
         transform: rotateX(0deg);
         visibility: visible;
         transition: .1s;
         opacity: 1;
     }
-}
-
+   }
+   
+   

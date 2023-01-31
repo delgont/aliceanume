@@ -123,12 +123,9 @@ return [
     'templates' => [
         'web.templates.team-member-page' => ['name' => 'Team Member Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows a single team member and other team members'],
         'web.templates.faqs-page' => ['name' => 'FAQs', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows frequently asked questions'],
-
-        'web.index' => ['name' => 'Home Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Home Page Template'],
         'web.templates.default-page' => ['name' => 'Default Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows page content and posts of specific type if specified'],
         'web.templates.news-page' => ['name' => 'News Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows single news article'],
         'web.templates.news-feed-page' => ['name' => 'News Feed Page', 'preview' => 'img/templates/home-page.png', 'description' => 'Shows latest news'],
-        'web.templates.contact-us' => ['name' => 'Contact Us Page', 'preview' => 'img/templates/contact-us.png', 'description' => 'Has contact form, google map'],
         'web.templates.courses-page' => ['name' => 'courses page', 'preview' => 'img/templates/default-page.jpg', 'description' => 'Shows courses if specified post type is course'],
         'web.templates.course-page' => ['name' => 'course page', 'preview' => 'img/templates/default-page.jpg', 'description' => 'Shows courses if specified post type is course'],
         'web.templates.ofType-page' => ['name' => 'Type Page', 'preview' => 'img/templates/ofType-page.jpg', 'description' => 'Shows page and lists the related post types'],
@@ -139,5 +136,13 @@ return [
         'web.sections.intro' => ['name' => 'Intro Section', 'preview' => '', 'description' => 'Brief intro about the school'],
         'web.sections.contact-us' => ['name' => 'Contact Us Section', 'preview' => '', 'description' => 'Contact us form and contact details']
     ],
+
+    'roles' => [
+        'registrar'
+    ],
+
+    'permissions' => [
+        'manage_events' => 'Create, Edit and delete events'
+    ]
 
 ];

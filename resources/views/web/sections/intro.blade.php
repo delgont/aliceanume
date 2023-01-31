@@ -2,13 +2,12 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-6 order-2 col-lg-6 ">
-                <img src="{{ (option('aamsnm_intro_media')) ? asset(option('aamsnm_intro_media')) : asset(option('aamsnm_header_image')) }}" alt="" class="img-fluid rounded shadow-lg" />
+            <div class="col-md-6 order-2 col-lg-6 intro-media rounded shadow-sm" style="background-image: url({{ asset(option('aamsnm_intro_media', 'img/header/header-2.jpg')) }})">
             </div>
 
-            <div class="col-md-6 col-lg-6 wow fadeInUp py-lg-4 py-5" data-wow-delay="0.5s">
+            <div class="col-md-6 col-lg-6 wow fadeInUp py-lg-3 py-2" data-wow-delay="0.5s">
                 <div class="h-100">
-                    <div class="intro-content py-lg-4 post-body">
+                    <div class="intro-content py-lg-2 post-body">
                         {!! option('aamsnm_intro') !!}
                     </div>
                     <a class="btn btn-primary d-none" href="">
@@ -17,7 +16,7 @@
                             <i class="fa fa-arrow-right"></i>
                         </div>
                     </a>
-                    <a class="btn btn-outline-primary d-none" href="">
+                    <a class="btn btn-outline-primary " href="">
                         Contact Us
                         <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>

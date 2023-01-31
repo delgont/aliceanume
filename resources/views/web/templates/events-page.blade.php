@@ -5,7 +5,7 @@
 @section('content')
     @includeIf('web.includes.header', [
         'headerTitle' => 'Our Upcoming Events',
-        'headerImage' => option('aamsnm_events_header_image', config('events.option.aamsnm_events_header_image', 'img/event.jpg')),
+        'headerImage' => option('aamsnm_events_header_image', 'img/header/header-2.jpg'),
         'slug' => option( 'aamsnm_events_route_prefix', config( 'events.options.aamsnm_events_route_prefix', 'upcoming-events' ))
         ])
     <!-- Events Section -->

@@ -5,9 +5,9 @@
     </div>
     <div class="col-lg-5 px-5 text-">
         @if ($topBarMenuItems)
-            @if (count($topBarMenuItems->menuItems) > 0)
-                @foreach ($topBarMenuItems->menuItems as $menuItem)
-                    <small><a class="text-white ms-3" href="{{ url(($menuItem->menuable->slug) ?? '/') }}">{{ $menuItem->label }}</a></small>
+            @if (count($topBarMenuItems) > 0)
+                @foreach ($topBarMenuItems as $menuItem)
+                    <small><a class="text-white ms-3" href="{{ $menuItem->menuable->url }}">{{ $menuItem->label }}</a></small>
                 @endforeach
             @else
                 

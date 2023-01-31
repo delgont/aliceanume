@@ -35,11 +35,6 @@ return [
             'post_type' => 'page'
         ],
         [
-            'post_title' => 'home slider item',
-            'post_featured_image' => 'img/header/header.jpg',
-            'post_type' => 'page'
-        ],
-        [
             'post_title' => 'how to apply',
             'post_featured_image' => 'img/header/header.jpg',
             'post_content' => '
@@ -79,23 +74,6 @@ return [
         [
             'post_type' => 'course',
             'post_featured_image' => 'img/header/header.jpg',
-            'post_title' => 'diploma in nursing direct entry',
-            'extract_text' => 'Duration: 3 years. Entry Requirements - UACE, Atleast a principal pass in Biology and a subsidiary pass in chemistry',
-            'post_content' => '<h4>Duration: 3 Years</h4><h5>Entry Requirements</h5><p>Uganda Advanced Certificate Of Education <b>(“A-Level”)</b> in sciences with a Principal Pass in Biology & a subsidiary Pass in Chemistry</p>',
-            'slug' => 'academic-programs/diploma-in-nursing-direct-entry',
-            'template' => 'web.templates.default-page'
-        ],
-        [
-            'post_type' => 'course',
-            'post_featured_image' => 'img/header/header.jpg',
-            'post_title' => 'diploma in midwifery direct entry',
-            'extract_text' => 'Duration: 3 years. Entry Requirements - UACE, Atleast a principal pass in Biology and a subsidiary pass in chemistry',
-            'post_content' => '<h4>Duration: 3 Years</h4><h5>Entry Requirements</h5><p>Uganda Advanced Certificate Of Education <b>(“A-Level”)</b> in sciences with a Principal Pass in Biology & a subsidiary Pass in Chemistry</p>',
-            'slug' => 'academic-programs/diploma-in-midwifery-direct-entry'
-        ],
-        [
-            'post_type' => 'course',
-            'post_featured_image' => 'img/header/header.jpg',
             'extract_text' => 'Duration: 2 and half years, O Level certicate completed not more than 3 years, Pass in englisg, Mathematics and Biology and Must be 18 years and above',
             'post_title' => 'certificate in nursing',
             'post_content' => '<h4>Duration: 3 Years</h4><h5>Admission Requirements</h5><p>Uganda Advanced Certificate Of Education <b>(“A-Level”)</b> in sciences with a Principal Pass in Biology & a subsidiary Pass in Chemistry</p>',
@@ -125,6 +103,6 @@ return [
             'post_content' => '<h4>Duration: 1 and half years</h4><h5>Entry Requirements</h5><p>2 years work experience as a nurse, Principal pass in Biology</p>',
             'slug' => 'academic-programs/diploma-in-nursing-extension'
         ]
-    ],
+    ]
 
 ];

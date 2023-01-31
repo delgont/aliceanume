@@ -28,24 +28,5 @@
     </div>
 </section>   
 @else
-<section class="news py-5 section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 py-3">
-                <h3>Latest News</h3>
-            </div>
-            @for ($i = 0; $i < 4; $i++)
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                <div class="py-5 empty rounded mb-2">
-                    <div class="py-3"></div>
-                </div>
-                <div class="py-2 px-2">
-                    <div class="p-2 bg-info rounded"></div>
-                    <div class="p-1 bg-info rounded mt-1"></div>
-                </div>
-            </div>
-            @endfor
-        </div>
-    </div>
-</section>   
+
 @endif

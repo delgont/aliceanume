@@ -7,7 +7,7 @@
 
 @includeIf('web.includes.header', [
     'headerTitle' => 'Contact Us',
-    'headerImage' => option('aamsnm_events_header_image', config('events.option.aamsnm_events_header_image', 'img/event.jpg')),
+    'headerImage' => 'img/header/header-2.jpg',
     'slug' => 'contact us'
 ])
 

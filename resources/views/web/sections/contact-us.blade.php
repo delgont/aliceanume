@@ -2,19 +2,13 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-7 col-lg-9 col-xl-9">
-                <div class="row">
-                   
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 mb-4">
-                        @includeIf('web.widgets.forms.contact-form')
-                    </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
+                @includeIf('web.widgets.forms.contact-form')
+            </div>
 
-                    <div class="col-md-12 col-lg-4 mb-4">
-                        @includeIf('web.widgets.map')
-                        
-                    </div>
-
-                </div>
+            <div class="col-md-12 col-lg-6 mb-4">
+                @includeIf('web.widgets.map')
+                
             </div>
            
 
